@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Eco-Design</title>
@@ -21,15 +23,50 @@
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
-        <section id="queHacemos"></section>
-        <section id="trabajos"></section>
+        </header>
+        <main>
+        <div class="position-portada">
+            <img class="portada" src="./resources/img/portada.jpg" alt="portada">
+            
+            <div class="text-portada">
+                <h1>Eco Design</h1>
+                <p>Tu jardin deseado con el mejor equipo</p>
+            </div>
+        </div>
+
+        <section class="hacemos" id="queHacemos">
+            <h2>¿Qué hacemos?</h2>
+            <div class="etapas">
+                <h3 class="sub-title">Visita</h3>
+                <img class="etapas-img" src="./resources/icon/marcador-de-posicion.png" alt="Visita">
+                <p>Visitamos el lugar para tomar medidas y pensar en lo que se puede hacer</p>
+            </div>
+            <div class="etapas">
+                <h3 class="sub-title">Diseñamos</h3>
+                <img class="etapas-img" src="./resources/icon/plan.png" alt="Diseño">
+                <p>Seleccionamos las plantas y realizamos bocetos para mostrarle al cliente</p>
+            </div>
+            <div class="etapas">
+                <h3 class="sub-title">Ejecución</h3>
+                <img class="etapas-img" src="./resources/icon/ejecucion.png" alt="Ejecucion">
+                <p>Vamos al lugar y empezamos a trabajar en la colocación</p>
+            </div>
+        </section>
+        <section class="trabajos" id="trabajos">
+            <h2>Nuestros trabajos</h2>
+            <!-- <div>
+                <img src="./resources/img/ballester-antes.jpg" alt="">
+                <img src="./resources/img/ballester-despues.jpg" alt="">
+            </div> -->
+        </section>
         <section id="contact"></section>
     </main>
     <footer>
 
     </footer>
     <script src="./js/index.js"></script>
+    <script>
+         AOS.init();
+    </script>
 </body>
 </html>
