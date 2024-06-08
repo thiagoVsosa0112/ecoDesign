@@ -51,7 +51,7 @@
   overflow: hidden; }
   .position-portada .portada {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     object-fit: cover;
     opacity: 0.7; }
   .position-portada .text-portada {
@@ -79,6 +79,9 @@
     width: 100%;
     flex-direction: column;
     margin-top: 40px; }
+    .hacemos .etapas p {
+      margin-left: 20px;
+      margin-right: 20px; }
 
 .trabajos {
   margin-top: 30px; }
